@@ -249,6 +249,7 @@ img {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+  /* 1 */
 }
 
 .sr-only.focusable:active,
@@ -276,6 +277,8 @@ img {
   clear: both;
 }
 
+
+
 /* - - - TABLET STYLES - - -  */
 
 @media only screen and (min-width: 768PX) {
@@ -301,6 +304,10 @@ nav {
   justify-content: space-between;
   gap:10px;
   
+}
+
+.review .der {
+  padding:4em;
 }
 
 .touch {
@@ -335,12 +342,13 @@ nav {
 }
 }
 
+
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
   (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
 }
+
 
 @media print {
   *,
@@ -402,4 +410,3 @@ nav {
     page-break-after: avoid;
   }
 }
-
